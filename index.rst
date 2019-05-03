@@ -1,20 +1,27 @@
-.. cookbook documentation master file, created by
-   sphinx-quickstart on Thu May  2 12:27:08 2019.
-   You can adapt this file completely to your liking, but it should at least
-   contain the root `toctree` directive.
-
-Welcome to cookbook's documentation!
-====================================
+.. include:: README.rst
 
 .. toctree::
+   :caption: Theme Documentation
    :maxdepth: 2
-   :caption: Contents:
+
+   installing
+   configuring
+   changelog
+   contributing
 
 
+.. toctree::
+    :maxdepth: 2
+    :numbered:
+    :caption: Demo Documents
 
-Indices and tables
-==================
+    demo/structure
+    demo/demo
+    demo/lists_tables
 
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
+.. toctree::
+    :maxdepth: 3
+    :numbered:
+    :caption: This is an incredibly long caption for a long menu
+
+    demo/long
