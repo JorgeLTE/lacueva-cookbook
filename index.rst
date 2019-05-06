@@ -5,7 +5,6 @@
    :maxdepth: 2
 
    installing
-   configuring
    changelog
    contributing
 
