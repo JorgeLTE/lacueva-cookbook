@@ -6,7 +6,6 @@
 
    installing
    changelog
-   contributing
 
 
 .. toctree::
